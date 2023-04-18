@@ -1,0 +1,166 @@
+.footer {
+  background-color: black;
+}
+.foot {
+  padding-top: 70px;
+  padding-bottom: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.one-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  max-width: 207px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 9px;
+  margin-bottom: 25px;
+}
+.one-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.one-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.foot-two {
+  display: flex;
+  align-items: center;
+  gap: 132px;
+}
+.left-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.right-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.three-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 13px;
+}
+.three-list {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 18px;
+}
+.inpu {
+  padding: 20px 2px 20px 20px;
+  width: 300px;
+  border-radius: 5px;
+  width: 26rem;
+  height: 3.6rem;
+  border: 2px solid #f3f3f3;
+  border-radius: 5px;
+}
+.footer-btn {
+  padding: 14px 30px;
+  border: 2px solid #d23166;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #d23166;
+  width: 135px;
+}
+.fos {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  .foot {
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .foot {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .one-text {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .one-title {
+    margin-bottom: 6px;
+  }
+  .one-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .foot-two {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .left-item {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  .right-item {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  .three-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .three-list {
+    gap: 14px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: 50px;
+  }
+  .inpu {
+    padding: 10px 10px 10px 10px;
+    width: 15rem;
+    height: 3.6rem;
+  }
+  .footer-btn {
+    padding: 7px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75px;
+    font-size: 12px;
+  }
+  .fos {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+}
